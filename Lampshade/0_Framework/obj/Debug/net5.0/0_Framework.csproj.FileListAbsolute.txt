@@ -1,0 +1,12 @@
+E:\CSharp\Code\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.deps.json
+E:\CSharp\Code\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.dll
+E:\CSharp\Code\Lampshade\0_Framework\bin\Debug\net5.0\0_Framework.pdb
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.AssemblyReference.cache
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfoInputs.cache
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.AssemblyInfo.cs
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.csproj.CoreCompileInputs.cache
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.dll
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\refint\0_Framework.dll
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\0_Framework.pdb
+E:\CSharp\Code\Lampshade\0_Framework\obj\Debug\net5.0\ref\0_Framework.dll
