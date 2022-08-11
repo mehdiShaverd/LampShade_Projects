@@ -17,3 +17,5 @@ E:\CSharp\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagem
 E:\CSharp\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\refint\ShopManagement.Application.dll
 E:\CSharp\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ShopManagement.Application.pdb
 E:\CSharp\Code\Lampshade\ShopManagement.Application\obj\Debug\net5.0\ref\ShopManagement.Application.dll
+E:\CSharp\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.dll
+E:\CSharp\Code\Lampshade\ShopManagement.Application\bin\Debug\net5.0\ShopManagement.Infrastructure.EFCore.pdb

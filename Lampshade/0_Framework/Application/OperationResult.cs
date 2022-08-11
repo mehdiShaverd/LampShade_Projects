@@ -4,6 +4,7 @@
     {
         public bool IsSuccedded { get; set; }
         public string Massage { get; set; }
+        public string Message { get; set; }
 
         public OperationResult()
         {

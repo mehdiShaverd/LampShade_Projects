@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopManagement.Configuration;
+using ShopManagement.Infrastructure.EFCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +30,8 @@ namespace ServiceHost
 
             ShopManagementBootstrapper.Configure(services, connectionString);
 
+            services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
+
             services.AddRazorPages();
         }
 
@@ -45,24 +49,19 @@ namespace ServiceHost
                 app.UseHsts();
             }
 
-            app.UseAuthentication();
+            
 
             app.UseHttpsRedirection();
 
             app.UseStaticFiles();
 
-            app.UseCookiePolicy();
-
             app.UseRouting();
 
             app.UseAuthorization();
 
-            app.UseCors("MyPolicy");
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapControllers();
             });
         }
     }
