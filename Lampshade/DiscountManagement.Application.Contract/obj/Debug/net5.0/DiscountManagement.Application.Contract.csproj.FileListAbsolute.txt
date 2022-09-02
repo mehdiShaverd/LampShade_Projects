@@ -1,0 +1,17 @@
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.deps.json
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.dll
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\0_Framework.pdb
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.dll
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\refint\DiscountManagement.Application.Contract.dll
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\DiscountManagement.Application.Contract.pdb
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\obj\Debug\net5.0\ref\DiscountManagement.Application.Contract.dll
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
+E:\CSharp\Code\Lampshade\DiscountManagement.Application.Contract\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb

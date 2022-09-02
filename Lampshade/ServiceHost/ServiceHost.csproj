@@ -6,9 +6,13 @@
 
   <ItemGroup>
     <Content Remove="Areas\Administration\Pages\Shared\_Menu.cshtml" />
+    <Content Remove="Pages\ProductCategory.cshtml" />
+    <Content Remove="Pages\Search.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
+    <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
 
@@ -22,6 +26,26 @@
 
   <ItemGroup>
     <None Include="Areas\Administration\Pages\Shared\_Menu.cshtml" />
+    <None Include="Pages\Search.cshtml" />
+    <None Include="Pages\ProductCategory.cshtml" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
+    <None Include="wwwroot\Theme\assets\js\active.js" />
+    <None Include="wwwroot\Theme\assets\js\ajax-mail.js" />
+    <None Include="wwwroot\Theme\assets\js\custom.js" />
+    <None Include="wwwroot\Theme\assets\js\plugins.js" />
+    <None Include="wwwroot\Theme\assets\js\vendors.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\ProductCategory.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\ProductCategory.cshtml" />
   </ItemGroup>
 
 </Project>

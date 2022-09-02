@@ -56,8 +56,5 @@ namespace ShopManagement.Domain.ProductAgg
             Keywords = keywords;
             MelaDescription = melaDescription;
         }
-
-       
-
     }
 }

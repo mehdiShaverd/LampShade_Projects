@@ -1,4 +1,5 @@
-﻿using _0_Framework.Infrastructure;
+﻿using _0_Framework.Application;
+using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contracts.ProductCategorys;
 using ShopManagement.Domain.ProductCategoryAgg;
 using System;
@@ -42,6 +43,11 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             }).ToList();
         }
 
+        public string GetSlugById(long id)
+        {
+            return _context.ProductCategories.Select(x => new { x.Id, x.Slug }).FirstOrDefault(x => x.Id == id).Slug;
+        }
+
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
             var query = _context.ProductCategories.Select(x => new ProductCategoryViewModel
@@ -49,7 +55,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Id = x.Id,
                 Picture = x.Picture,
                 Name = x.Name,
-                CreationDate = x.CreationDate.ToString()
+                CreationDate = x.CreationDate.ToFarsi()
             });
 
             if (!string.IsNullOrWhiteSpace(searchModel.Name))

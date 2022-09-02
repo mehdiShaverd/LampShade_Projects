@@ -1,3 +1,6 @@
+using _0_Framework.Application;
+using DiscountManagement.Configuration;
+using InventoryManagement.Infrastructure.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,11 +30,15 @@ namespace ServiceHost
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("LampshadeDb");
-
             ShopManagementBootstrapper.Configure(services, connectionString);
+            DiscountManagementBootstrapper.Configure(services, connectionString);
+            InventoryManagementBootstrapper.Configure(services, connectionString);
+            //BlogManagementBootstrapper.Configure(services, connectionString);
+            //CommentManagementBootstrapper.Configure(services, connectionString);
+            //AccountManagementBootstrapper.Configure(services, connectionString);
 
             services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
-
+            services.AddTransient<IFileUploader, FileUploader>();
             services.AddRazorPages();
         }
 
@@ -62,6 +69,7 @@ namespace ServiceHost
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                //endpoints.MapControllers();
             });
         }
     }
